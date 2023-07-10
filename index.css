@@ -98,7 +98,7 @@ h4 {
 button {
     color: #FFF;
     font-family: Inter;
-    font-size: px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -122,7 +122,12 @@ button {
     height: 5px;
 }
 
-
+.flex-2 {
+    margin-left: 52px;
+    display: flex;
+    width: 354px;
+    flex-shrink: 0;
+}
 
 
 
