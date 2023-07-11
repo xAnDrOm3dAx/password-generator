@@ -130,7 +130,8 @@ button {
   justify-content: center;
   align-items: center;
   gap: 12px;
-  border: none;
+  border-color: rgb(83, 82, 82);
+  border-width: 3px;
   border-radius: 6px;
   background: #10B981;
   /* shadow/sm */
