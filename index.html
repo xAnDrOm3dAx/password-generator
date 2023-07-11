@@ -1,8 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="index.pack.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,27 +16,27 @@
 </head>
 
 <body>
+    <main role="main">
 
-    <main>
+        <div class="container">
 
-        <h1>Generate a <span class="color">random password</span></h1>
-        <h4>Never use the same password again.</h4>
+            <h1>Generate a <span>random password</span></h1>
+            <h4>Never use the same password again.</h4>
 
-        <button><img class="icons-1" src="img/Icon.png" alt="icon image">Generate Passwords</button>
+            <button id="generatePassword"><img class="icons-1" src="img/Icon.png" alt="icon image">Generate
+                Passwords</button>
 
-        <hr>
+            <hr>
 
-        <div class="display">
-            <p id="password" class="icons-2" placeholder="pass1"></p>
-            <p id="password" class="icons-2" placeholder="pass2"></p>
-            <p id="password" class="icons-2" placeholder="pass3"></p>
-            <p id="password" class="icons-2" placeholder="pass4"></p>
+            <div class="display">
+                <input type="text" name="pass1" id="pass1" class="outputText">
+                <input type="text" name="pass2" id="pass2" class="outputText">
+                <input type="text" name="pass3" id="pass3" class="outputText">
+                <input type="text" name="pass4" id="pass4" class="outputText">
+            </div>
+
         </div>
-
-
     </main>
-
 </body>
-<script src="index.pack.js"></script>
 
 </html>
