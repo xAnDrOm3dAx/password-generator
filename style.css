@@ -63,7 +63,7 @@ body {
   margin: 15px;
 }
 
-main {
+.container {
   width: 100%;
   max-width: 550px;
   padding: 118px 52px 46px 52px;
@@ -78,16 +78,6 @@ main {
   align-items: center;
 }
 
-.display > p {
-  display: flex;
-  flex-shrink: 0;
-  justify-content: center;
-  align-items: center;
-  width: 211px;
-  height: 39px;
-  border-radius: 6px;
-  background: #273549;
-  }
 
 /*------------------------------------*\
 #TYPOGRAPHY
@@ -105,7 +95,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.color {
+h1 > span {
   color: #4ADF86;
 }
 
@@ -162,6 +152,18 @@ hr {
   margin-bottom: 35px;
 }
 
+.outputText {
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+  border: none;
+  background: #273549;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  overflow: hidden;
+  }
+
 
 /*------------------------------------*\
 #MEDIA QUERIES
@@ -174,7 +176,7 @@ hr {
   }
 
   h1 {
-    width: 100%;
+    width: 95%;
     font-size: 32px;
     line-height: 36px;
   }
