@@ -4,7 +4,9 @@
 /*
 1. Use a more-intuitive box-sizing model.
 */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 /*
@@ -26,26 +28,40 @@ body {
 /*
   5. Improve media defaults
 */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 /*
   6. Remove built-in form typography styles
 */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 /*
   7. Avoid text overflows
 */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 /*
   8. Create a root stacking context
 */
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
 }
 
@@ -54,9 +70,9 @@ p, h1, h2, h3, h4, h5, h6 {
 \*------------------------------------*/
 
 body {
-  background: #1C1C1C;
+  background: #1c1c1c;
   min-height: 100vh;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +83,7 @@ body {
   width: 100%;
   max-width: 550px;
   padding: 118px 52px 46px 52px;
-  background: #1F2937;
+  background: #1f2937;
 }
 
 .display {
@@ -78,13 +94,12 @@ body {
   align-items: center;
 }
 
-
 /*------------------------------------*\
 #TYPOGRAPHY
 \*------------------------------------*/
 
 h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   width: 354px;
   font-family: Karla, sans-serif;
   font-size: 2.5rem;
@@ -96,11 +111,11 @@ h1 {
 }
 
 h1 > span {
-  color: #4ADF86;
+  color: #4adf86;
 }
 
 h4 {
-  color: #D5D4D8;
+  color: #d5d4d8;
   font-family: Inter, sans-serif;
   font-size: 1.25rem;
   font-style: normal;
@@ -123,20 +138,15 @@ button {
   border-color: rgb(83, 82, 82);
   border-width: 3px;
   border-radius: 6px;
-  background: #10B981;
+  background: #10b981;
   /* shadow/sm */
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-  color: #FFF;
+  color: #fff;
   font-family: Inter;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5rem;
-}
-
-button:hover {
-  background-color:#D97706;
-  transition: 0.5s;
 }
 
 .icons-1 {
@@ -147,7 +157,7 @@ button:hover {
 hr {
   height: 1px;
   border: none;
-  background-color: #2F3E53;
+  background-color: #2f3e53;
   width: 100%;
   margin-bottom: 35px;
 }
@@ -158,17 +168,15 @@ hr {
   border-radius: 6px;
   border: none;
   background: #273549;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 16px;
   text-align: center;
   overflow: hidden;
-  }
-
+}
 
 /*------------------------------------*\
 #MEDIA QUERIES
 \*------------------------------------*/
-
 
 @media (max-width: 768px) {
   main {
@@ -192,5 +200,3 @@ hr {
     line-height: 28px;
   }
 }
-
-
