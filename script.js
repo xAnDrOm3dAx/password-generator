@@ -1,16 +1,40 @@
-const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "{", "[", "}", "]", ",", "|", ":", ";", "<", ">", ".", "?", "/"];
+// Create a variable which stores all character data
 
-// Initialise the password as an empty string
-let password = " ";
+const characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()";
 
-// Listen for clicks from the generate button
-document.getElementById("generatePassword").addEventListener("click", generate);
+// Set password length - develop this to let user select length
 
-// Create a function that will generate a random password
+let passwordLength = 12;
 
-//  Display that password at the pass1, 2, 3 & 4 in the HTML
+// Grab the output HTML elements
 
-// Create a function that will generate a random password bia iteration.
+const pass1 = document.getElementById("output1");
+const pass2 = document.getElementById("output2");
+const pass3 = document.getElementById("output3");
+const pass4 = document.getElementById("output4");
+
+// Create a function that will generate a random password containing number characters from passwordLength
+
 function generate() {
-  console.log("clicked");
+  // Declare a variable "password and assign an empty string to it's value"
+  let password = " ";
+  for (let i = 0; i < passwordLength; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    // Add the random characters to the empty password string
+    password += characters[randomIndex];
+  }
+  return password;
 }
+
+// Creates a function outputPasswords() that adds the generated passwords to the HTML elements when clicking Generate Passwords <button>
+
+function outputPasswords() {
+  // Display the output in the HTML outputDisplay
+  pass1.textContent = generate();
+  pass2.textContent = generate();
+  pass3.textContent = generate();
+  pass4.textContent = generate();
+}
+
+// Invoke function
+// console.log(generate());

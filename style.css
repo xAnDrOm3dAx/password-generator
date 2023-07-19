@@ -86,7 +86,7 @@ body {
   background: #1f2937;
 }
 
-.display {
+.outputDisplay {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -162,7 +162,7 @@ hr {
   margin-bottom: 35px;
 }
 
-.outputText {
+.outputStyle {
   width: 211px;
   height: 39px;
   border-radius: 6px;
@@ -174,8 +174,10 @@ hr {
   font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 200% */
-  text-align: center;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*------------------------------------*\
