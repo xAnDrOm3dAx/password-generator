@@ -36,7 +36,7 @@ function outputPasswords() {
   pass4.textContent = generate();
 }
 
-// Add a function that will copy the text on click
+// Version 2 - Add a function that will copy the text on click
 
 // Invoke function
 // console.log(generate());
