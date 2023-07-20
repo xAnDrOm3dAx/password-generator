@@ -8,6 +8,11 @@ let password = 12;
 
 // Grab the output HTML elements
 
+const pass1 = document.getElementById("output1");
+const pass2 = document.getElementById("output2");
+const pass3 = document.getElementById("output3");
+const pass4 = document.getElementById("output4");
+
 // Create a function that will generate a random password containing number characters from passwordLength
 
 function generate() {
