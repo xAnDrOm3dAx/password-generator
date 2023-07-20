@@ -26,15 +26,12 @@ function generate() {
   return password;
 }
 
-console.log(generate());
-
 // Creates a function outputPasswords() that adds the generated passwords to the HTML elements when clicking Generate Passwords <button>
 
 function outputPasswords() {
   // Display the output in the HTML outputDisplay
+  pass1.textContent = generate();
+  pass2.textContent = generate();
+  pass3.textContent = generate();
+  pass4.textContent = generate();
 }
-
-// Add a function that will copy the text on click
-
-// Invoke function
-// console.log(generate());
