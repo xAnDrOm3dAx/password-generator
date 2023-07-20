@@ -30,3 +30,7 @@ Onwards and upwards.
 ## Links
 
 Live Site url: https://xandrom3dax.github.io/password-generator/
+
+## Further Development
+
+Planning to add some extra features to enable the user to select how many characters, toggle uppercase, lowercase, and symbols 🤙
