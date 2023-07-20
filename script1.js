@@ -4,6 +4,8 @@ const characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWX
 
 // Set password length - develop this to let user select length
 
+let password = 12;
+
 // Grab the output HTML elements
 
 // Create a function that will generate a random password containing number characters from passwordLength
