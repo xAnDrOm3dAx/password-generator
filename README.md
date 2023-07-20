@@ -1,13 +1,32 @@
-## About Scrimba
+# Password Generator - Scrimba
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Version 1:
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+#### Technologies Used:
 
-Happy Coding!
+HTML, CSS & Javascript
 
-https://xandrom3dax.github.io/password-generator/
+#### Introduction:
+
+I have created a password generator using foundational knowledge gained from the Scrimba - Learn Javascript course and The Odin Project Foundations course.
+
+#### Requirements
+
+Use the Figma design file reference.
+Create an array to hold all possible chars.
+Create a button to generate 4 random password options.
+Display password options x4.
+
+Extra: Ability to set the password length. Coming in version 1.1
+
+## Lessons Learned
+
+What did you learn while building this project? What challenges did you face and how did you overcome them?
+
+Before starting this project, I did a little more planning, researching how to think like a developer so that I could have more of an understanding of the problem before jumping in. I broke the problem down and hacked away at the sub problems before linking it all together. I must admit, I did look at other solutions for inspiration, but in the end I managed to figure it out on my own.
+
+Onwards and upwards.
+
+## Links
+
+Live Site url: https://xandrom3dax.github.io/password-generator/
