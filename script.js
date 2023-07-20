@@ -19,9 +19,9 @@ function generate() {
   // Declare a variable "password and assign an empty string to it's value"
   let password = " ";
   for (let i = 0; i < passwordLength; i++) {
-    const randomPassword = Math.floor(Math.random() * characters.length);
-    // Add result of randomPassword to the empty password string
-    password += characters[randomPassword];
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    // Add the random characters to the empty password string
+    password += characters[randomIndex];
   }
   return password;
 }
@@ -35,3 +35,8 @@ function outputPasswords() {
   pass3.textContent = generate();
   pass4.textContent = generate();
 }
+
+// Add a function that will copy the text on click
+
+// Invoke function
+// console.log(generate());
