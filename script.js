@@ -28,13 +28,20 @@ function generate() {
 
 // Creates a function outputPasswords() that adds the generated passwords to the HTML elements when clicking Generate Passwords <button>
 
-function outputPasswords() {
-  // Display the output in the HTML outputDisplay
+generatePassword.addEventListener("click", function () {
   pass1.textContent = generate();
   pass2.textContent = generate();
   pass3.textContent = generate();
   pass4.textContent = generate();
-}
+});
+
+// function outputPasswords() {
+//   // Display the output in the HTML outputDisplay
+//   pass1.textContent = generate();
+//   pass2.textContent = generate();
+//   pass3.textContent = generate();
+//   pass4.textContent = generate();
+// }
 
 // Version 2 - Add a function that will copy the text on click
 
