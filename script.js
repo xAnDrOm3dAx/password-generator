@@ -35,14 +35,6 @@ generatePassword.addEventListener("click", function () {
   pass4.textContent = generate();
 });
 
-// function outputPasswords() {
-//   // Display the output in the HTML outputDisplay
-//   pass1.textContent = generate();
-//   pass2.textContent = generate();
-//   pass3.textContent = generate();
-//   pass4.textContent = generate();
-// }
-
 // Version 2 - Add a function that will copy the text on click
 
 // Invoke function
