@@ -180,6 +180,35 @@ hr {
   align-items: center;
 }
 
+.passwordLength {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+  font-family: Inter, sans-serif;
+}
+
+.passwordLength header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passwordLength input {
+  appearance: none;
+  background-color: #273549;
+  color: red;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.passwordLength input::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #10b981;
+}
+
 /*------------------------------------*\
 #MEDIA QUERIES
 \*------------------------------------*/

@@ -4,7 +4,17 @@ const characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWX
 
 // Set password length - develop this to let user select length
 
-let passwordLength = 12;
+const slider = document.getElementById('slider');
+const sliderValue = document.getElementById('sliderValue');
+
+sliderValue.textContent = slider.value;
+
+let passwordLength = slider.value;
+
+slider.addEventListener('input', (event) => {
+  passwordLength = event.target.value;
+  sliderValue.textContent = passwordLength;
+});
 
 // Grab the output HTML elements
 
