@@ -180,6 +180,8 @@ hr {
   align-items: center;
 }
 
+/* Added by Luke Hoang */
+
 .passwordLength {
   display: flex;
   flex-direction: column;

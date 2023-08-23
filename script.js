@@ -2,16 +2,16 @@
 
 const characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()";
 
-// Set password length - develop this to let user select length
+// Set password length - Added by Luke Hoang
 
-const slider = document.getElementById('slider');
-const sliderValue = document.getElementById('sliderValue');
+const slider = document.getElementById("slider");
+const sliderValue = document.getElementById("sliderValue");
 
 sliderValue.textContent = slider.value;
 
 let passwordLength = slider.value;
 
-slider.addEventListener('input', (event) => {
+slider.addEventListener("input", (event) => {
   passwordLength = event.target.value;
   sliderValue.textContent = passwordLength;
 });
