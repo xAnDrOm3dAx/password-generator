@@ -34,3 +34,9 @@ Live Site url: https://xandrom3dax.github.io/password-generator/
 ## Further Development
 
 Planning to add some extra features to enable the user to select how many characters, toggle uppercase, lowercase, and symbols 🤙
+
+## Version 1.1:
+
+Feature added by Luke Hoang - https://github.com/luke-hoang
+
+Added slider which enables user to set password length between 6 & 12 characters.
