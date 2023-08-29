@@ -16,38 +16,34 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
+    <main>
+
+        <section class="container">
             <h1>Generate a <span>random password</span></h1>
             <h4>Never use the same password again.</h4>
-        </header>
 
-        <main>
-            <section class="passwordLength">
+            <div class="passwordLength">
                 <div>
                     <p>Password Length:</p>
                     <span id="sliderValue"></span>
                 </div>
                 <input id="slider" type="range" min="6" max="12" step="1" value="6" />
-            </section>
+            </div>
 
-            <section>
-                <button id="generatePassword"><img class="icons-1" src="img/Icon.png" alt="icon image">Generate
-                    Passwords</button>
-                <hr>
-            </section>
+            <button id="generatePassword"><img class="icons-1" src="img/Icon.png" alt="icon image">Generate
+                Passwords</button>
 
-            <section>
-                <div class="outputDisplay">
-                    <span class="outputStyle" id="output1"></span>
-                    <span class="outputStyle" id="output2"></span>
-                    <span class="outputStyle" id="output3"></span>
-                    <span class="outputStyle" id="output4"></span>
-                </div>
-            </section>
-        </main>
+            <hr>
 
-    </div>
+            <div class="outputDisplay">
+                <span class="outputStyle" id="output1"></span>
+                <span class="outputStyle" id="output2"></span>
+                <span class="outputStyle" id="output3"></span>
+                <span class="outputStyle" id="output4"></span>
+            </div>
+        </section>
+
+    </main>
 </body>
 
 </html>
