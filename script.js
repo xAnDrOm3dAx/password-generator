@@ -2,7 +2,7 @@
 
 const characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()";
 
-// Set password length - Added by Luke Hoang
+// Set password length
 
 const slider = document.getElementById("slider");
 const sliderValue = document.getElementById("sliderValue");
