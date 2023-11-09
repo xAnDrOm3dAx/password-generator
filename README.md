@@ -40,5 +40,3 @@ Planning to add some extra features to enable the user to toggle uppercase, lowe
 Feature added by Luke Hoang - https://github.com/luke-hoang
 
 Added slider which enables user to set password length between 6 & 12 characters.
-
-<!-- test -->
